@@ -1,0 +1,8 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# Other
+.DS_Store
+.idea/
+Thumbs.db
