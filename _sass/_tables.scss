@@ -19,3 +19,23 @@ td, th {
 th {
 	padding-bottom: 4px;
 }
+
+table.three-column-table thead tr {
+	display: none
+}
+
+table.three-column-table thead tr th:first-child, table.three-column-table tbody tr:first-child td:first-child {
+  width: 5%;
+}
+
+table.three-column-table thead tr th:nth-child(2), table.three-column-table tbody tr:first-child td:nth-child(2) {
+  width: 75%;
+}
+
+table.three-column-table thead tr th:nth-child(3), table.three-column-table tbody tr:first-child td:nth-child(3) {
+  width: 20%;
+}
+
+p {
+	margin-bottom: 0
+}
