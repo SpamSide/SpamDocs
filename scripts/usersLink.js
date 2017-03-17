@@ -1,3 +1,4 @@
+var baseUrl = '/SpamDocs'
 var users = [{
     'username': 'MFava91',
     'link': 'https://github.com/MFava91',
@@ -8,7 +9,7 @@ var users = [{
 var addUserIcons = function(userReference, user) {
   var img = document.createElement("img");
   img.class = 'img-responsive';
-  img.src = user.icon;
+  img.src = baseUrl + user.icon;
   userReference.appendChild(img);
 }
 
@@ -17,7 +18,7 @@ var searchUsernameAndAddHref = function(user) {
   var userReferences = document.getElementsByClassName(user.username);
 
   for (var i = 0; i < userReferences.length; i++) {
-      userReferences[i].href = '{{site.baseurl}}' + user.link;
+      userReferences[i].href = user.link;
       addUserIcons(userReferences[i], user);
   }
 }
