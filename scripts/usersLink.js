@@ -17,7 +17,7 @@ var searchUsernameAndAddHref = function(user) {
   var userReferences = document.getElementsByClassName(user.username);
 
   for (var i = 0; i < userReferences.length; i++) {
-      userReferences[i].href = user.link;
+      userReferences[i].href = '{{site.baseurl}}' + user.link;
       addUserIcons(userReferences[i], user);
   }
 }
