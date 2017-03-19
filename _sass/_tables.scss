@@ -36,6 +36,30 @@ table.three-column-table thead tr th:nth-child(3), table.three-column-table tbod
   width: 20%;
 }
 
+table.five-column-table thead tr {
+	display: none
+}
+
+table.five-column-table thead tr th:first-child, table.five-column-table tbody tr:first-child td:first-child {
+  width: 5%;
+}
+
+table.five-column-table thead tr th:nth-child(2), table.five-column-table tbody tr:first-child td:nth-child(2) {
+  width: 5%;
+}
+
+table.five-column-table thead tr th:nth-child(3), table.five-column-table tbody tr:first-child td:nth-child(3) {
+  width: 20%;
+}
+
+table.five-column-table thead tr th:nth-child(4), table.five-column-table tbody tr:first-child td:nth-child(4) {
+  width: 50%;
+}
+
+table.five-column-table thead tr th:nth-child(5), table.five-column-table tbody tr:first-child td:nth-child(5) {
+  width: 20%;
+}
+
 p {
 	margin-bottom: 0
 }

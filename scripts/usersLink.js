@@ -3,6 +3,10 @@ var users = [{
     'username': 'MFava91',
     'link': 'https://github.com/MFava91',
     'icon': '/images/userIcons/a.svg'
+  }, {
+    'username': 'FMeneguzzo',
+    'link': 'https://github.com/FMeneguzzo',
+    'icon': '/images/userIcons/FMeneguzzo.png'
   }
 ]
 
