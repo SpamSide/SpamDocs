@@ -1,7 +1,8 @@
 ---
 title: Angular 1.X
 category: Front-End
-order: 1
+collections: AngularJS
+order: 2
 ---
 
 ## Styleguide
