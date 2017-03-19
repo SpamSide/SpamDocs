@@ -4,7 +4,7 @@ var statuses = [{
     'icon': '/images/statusIcons/tested.svg'
   }, {
     'value': 'not-tested',
-    'icon': '/images/statusIcons/not-tested.png'
+    'icon': '/images/statusIcons/not-tested.svg'
   }
 ]
 
