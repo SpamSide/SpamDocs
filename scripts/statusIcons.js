@@ -1,4 +1,5 @@
-var baseUrl = '/SpamDocs'
+var baseUrl = window.location.host.indexOf('localhost') != -1 ? '' : '/SpamDocs';
+
 var statuses = [{
     'value': 'tested',
     'icon': '/images/statusIcons/tested.svg'
@@ -6,7 +7,7 @@ var statuses = [{
     'value': 'not-tested',
     'icon': '/images/statusIcons/not-tested.svg'
   }
-]
+];
 
 var searchStatusAndAddIcons = function(status) {
 
@@ -14,7 +15,6 @@ var searchStatusAndAddIcons = function(status) {
 
   for (var i = 0; i < statusElements.length; i++) {
       statusElements[i].src = baseUrl + status.icon;
-      statusElements[i].class = 'img-responsive';
       statusElements[i].title = status.value;
       statusElements[i].alt = status.value;
   }
