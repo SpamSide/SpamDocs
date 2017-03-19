@@ -8,7 +8,12 @@ var users = [{
     'username': 'FMeneguzzo',
     'link': 'https://github.com/FMeneguzzo',
     'icon': '/images/userIcons/FMeneguzzo.png'
-  }
+  }, {
+    'username': 'Zsavajji',
+    'link': 'https://github.com/Zsavajji',
+    'icon': '/images/userIcons/zsavajji.jpg'
+  }, 
+  
 ];
 
 var addUserIcons = function(userReference, user) {

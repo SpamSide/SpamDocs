@@ -18,7 +18,7 @@ order: 1
 | | | | | |
 | --- | --- | --- | --- | ---: |
 | [](){: .FMeneguzzo} | ![](){: .tested} | *npm* | | [GitHub](https://github.com/yarnpkg/yarn) |
-| [](){: .FMeneguzzo} | ![](){: .not-tested} | *yarn* | | [GitHub](https://github.com/yarnpkg/yarn) |
+| [](){: .Zsavajji} | ![](){: .tested} | *yarn* | Yarn package manager, similar to NPM, uses the same registry, but flattens dependencies for installed packages (much faster than NPM) | [GitHub](https://github.com/yarnpkg/yarn) |
 {: .five-column-table}
 
 ##### Utilities
