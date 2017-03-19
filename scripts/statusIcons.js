@@ -8,19 +8,15 @@ var statuses = [{
   }
 ]
 
-var addStatusIcons = function(statusElement, status) {
-  var img = document.createElement("img");
-  img.class = 'img-responsive';
-  img.src = baseUrl + status.icon;
-  statusElement.appendChild(img);
-}
-
 var searchStatusAndAddIcons = function(status) {
 
   var statusElements = document.getElementsByClassName(status.value);
 
   for (var i = 0; i < statusElements.length; i++) {
-      addStatusIcons(statusElements[i], status);
+      statusElements[i].src = baseUrl + status.icon;
+      statusElements[i].class = 'img-responsive';
+      statusElements[i].title = status.value;
+      statusElements[i].alt = status.value;
   }
 }
 
