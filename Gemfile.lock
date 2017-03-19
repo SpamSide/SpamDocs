@@ -200,6 +200,7 @@ DEPENDENCIES
   jekyll-feed (= 0.9.1)
   jekyll-seo-tag (= 2.1.0)
   jekyll-sitemap (= 1.0.0)
+  json
 
 BUNDLED WITH
    1.14.6

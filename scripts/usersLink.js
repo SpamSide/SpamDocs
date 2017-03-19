@@ -1,4 +1,5 @@
-var baseUrl = '/SpamDocs'
+var baseUrl = window.location.host.indexOf('localhost') != -1 ? '' : '/SpamDocs';
+
 var users = [{
     'username': 'MFava91',
     'link': 'https://github.com/MFava91',
@@ -8,7 +9,7 @@ var users = [{
     'link': 'https://github.com/FMeneguzzo',
     'icon': '/images/userIcons/FMeneguzzo.png'
   }
-]
+];
 
 var addUserIcons = function(userReference, user) {
   var img = document.createElement("img");
